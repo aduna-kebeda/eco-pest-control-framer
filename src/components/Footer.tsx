@@ -4,7 +4,7 @@ import { Shield, Phone, Mail, MapPin, Star } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-20">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Company Info */}
           <div className="space-y-6">
