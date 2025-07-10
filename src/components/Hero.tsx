@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="absolute bottom-20 left-1/4 w-16 h-16 border border-white/20 rounded-full"></div>
       </div>
       
-      <div className="relative container mx-auto px-6 pt-8 pb-20">
+      <div className="relative max-w-7xl mx-auto px-6 pt-8 pb-20">
         {/* Header */}
         <div className="flex justify-between items-center mb-20">
           <div className="flex items-center space-x-3">
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content */}
           <div className="space-y-10">
             <div className="space-y-6">

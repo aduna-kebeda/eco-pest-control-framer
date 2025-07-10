@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
 
   return (
     <section className="py-24 bg-white">
-      <div className="container mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20 max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold text-gray-900 mb-6">
             Why Sydney Homeowners Choose Ecovia
@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-20 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 mb-20">
           {benefits.map((benefit, index) => (
             <div 
               key={index}
