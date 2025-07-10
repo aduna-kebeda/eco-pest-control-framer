@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -33,7 +34,7 @@ const BookingForm = () => {
   };
 
   return (
-    <section id="booking-form" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="booking-form" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -46,8 +47,8 @@ const BookingForm = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Form */}
-          <Card className="shadow-xl border-0">
-            <CardHeader className="bg-emerald-700 text-white rounded-t-lg">
+          <Card className="shadow-xl border-0 bg-white">
+            <CardHeader className="bg-emerald-600 text-white rounded-t-lg">
               <CardTitle className="text-2xl text-center">Schedule Your Inspection</CardTitle>
             </CardHeader>
             <CardContent className="p-8">
@@ -163,13 +164,13 @@ const BookingForm = () => {
           {/* Contact Info & Benefits */}
           <div className="space-y-8">
             {/* Quick Contact */}
-            <Card className="shadow-lg border border-gray-200">
+            <Card className="shadow-lg border border-gray-200 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Need Immediate Help?</h3>
                 
                 <div className="space-y-4">
                   <div className="flex items-center space-x-4">
-                    <div className="bg-emerald-100 p-3 rounded-lg">
+                    <div className="bg-emerald-50 p-3 rounded-lg border border-emerald-100">
                       <Phone className="w-6 h-6 text-emerald-600" />
                     </div>
                     <div>
@@ -179,7 +180,7 @@ const BookingForm = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="bg-emerald-100 p-3 rounded-lg">
+                    <div className="bg-emerald-50 p-3 rounded-lg border border-emerald-100">
                       <MapPin className="w-6 h-6 text-emerald-600" />
                     </div>
                     <div>
@@ -189,7 +190,7 @@ const BookingForm = () => {
                   </div>
                   
                   <div className="flex items-center space-x-4">
-                    <div className="bg-emerald-100 p-3 rounded-lg">
+                    <div className="bg-emerald-50 p-3 rounded-lg border border-emerald-100">
                       <Clock className="w-6 h-6 text-emerald-600" />
                     </div>
                     <div>
@@ -202,7 +203,7 @@ const BookingForm = () => {
             </Card>
 
             {/* What to Expect */}
-            <Card className="shadow-lg border border-gray-200">
+            <Card className="shadow-lg border border-gray-200 bg-white">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">What to Expect</h3>
                 
@@ -221,7 +222,7 @@ const BookingForm = () => {
                   ))}
                 </div>
                 
-                <div className="mt-6 p-4 bg-emerald-50 rounded-lg">
+                <div className="mt-6 p-4 bg-emerald-50 rounded-lg border border-emerald-100">
                   <p className="text-emerald-800 font-medium text-center">
                     🌿 All treatments are eco-friendly and safe for children & pets
                   </p>

@@ -52,9 +52,9 @@ const WhyChooseUs = () => {
           {benefits.map((benefit, index) => (
             <div 
               key={index}
-              className="flex items-start space-x-6 p-8 rounded-2xl hover:bg-gray-50 transition-colors duration-300"
+              className="flex items-start space-x-6 p-8 rounded-2xl hover:bg-gray-50 transition-colors duration-300 border border-gray-100 shadow-sm"
             >
-              <div className="text-emerald-600 bg-emerald-100 p-4 rounded-2xl flex-shrink-0">
+              <div className="text-emerald-600 bg-emerald-50 p-4 rounded-2xl flex-shrink-0 border border-emerald-100">
                 {benefit.icon}
               </div>
               <div>
@@ -66,23 +66,23 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="bg-gradient-to-r from-emerald-700 to-teal-600 rounded-3xl p-16 text-white">
+        <div className="bg-white border-2 border-emerald-100 rounded-3xl p-16 shadow-lg">
           <div className="grid md:grid-cols-4 gap-12 text-center max-w-6xl mx-auto">
             <div>
-              <div className="text-6xl font-bold text-teal-200 mb-4">1000+</div>
-              <div className="text-2xl text-emerald-100">Happy Customers</div>
+              <div className="text-6xl font-bold text-emerald-600 mb-4">1000+</div>
+              <div className="text-2xl text-gray-700">Happy Customers</div>
             </div>
             <div>
-              <div className="text-6xl font-bold text-teal-200 mb-4">4.9★</div>
-              <div className="text-2xl text-emerald-100">Average Rating</div>
+              <div className="text-6xl font-bold text-emerald-600 mb-4">4.9★</div>
+              <div className="text-2xl text-gray-700">Average Rating</div>
             </div>
             <div>
-              <div className="text-6xl font-bold text-teal-200 mb-4">24/7</div>
-              <div className="text-2xl text-emerald-100">Emergency Service</div>
+              <div className="text-6xl font-bold text-emerald-600 mb-4">24/7</div>
+              <div className="text-2xl text-gray-700">Emergency Service</div>
             </div>
             <div>
-              <div className="text-6xl font-bold text-teal-200 mb-4">100%</div>
-              <div className="text-2xl text-emerald-100">Satisfaction Rate</div>
+              <div className="text-6xl font-bold text-emerald-600 mb-4">100%</div>
+              <div className="text-2xl text-gray-700">Satisfaction Rate</div>
             </div>
           </div>
         </div>
